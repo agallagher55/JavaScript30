@@ -25,24 +25,22 @@ button:hover {
 .keys {
     border: 5px solid silver;
     width: 67%;
-    height: 400px;
+    height: 15%;
     background-color: #595959;
     border-radius: 30px;
 
-    display: flex;
-    align-self: center;
-
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px 40px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .keys button {
     height: 70%;
-    margin: 50px;
+    margin: 10px;
     font-size: 48pt;
     border-radius: 30px;
-
-    flex-grow: 1;
 }
 
 .results {
